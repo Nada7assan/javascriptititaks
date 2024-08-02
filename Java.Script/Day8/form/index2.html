@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+h2 {
+    color: brown;
+}
+h4 {
+    color: rgb(100, 165, 183);
+}
+
+    </style>
+</head>
+<body>
+    <h2></h2>
+    <h4></h4>
+    <h4></h4>
+    <h4></h4>
+    <script>
+ var currentLocation = window.location.href;
+ var url = new URL(currentLocation);
+ console.log(url);
+ var userName = url.searchParams.get('userName');
+  var userAddress = url.searchParams.get("Address");
+  var userEmail = url.searchParams.get("email");
+  var userGender = url.searchParams.get("Gender");
+
+var header = document.getElementsByTagName("h2")[0].innerHTML = "Welcome " + userName
+var p = document.getElementsByTagName("h4");
+setTimeout(function(){
+    p[0].innerHTML = "Your Adress is: " + userAddress;
+    p[1].innerHTML = "Your Age is: " + userGender;
+    p[2].innerHTML =  "Your E-mail is: " + userEmail ;
+
+},1000)
+    </script>
+</body>
+</html>

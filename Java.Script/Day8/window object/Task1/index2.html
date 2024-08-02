@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2 {
+            font-family: 'Courier New', Courier, monospace;
+            margin:300px 50%;
+            color: rgb(207, 68, 68);
+            font-size: xx-large;
+        }
+    </style>
+</head>
+<body>
+    <h2></h2>
+    <script>
+       
+var head = document.getElementsByTagName("h2")[0];
+var index = 0;
+var text = "Welcome";
+
+
+setInterval(function(){
+
+if (index < text.length){
+var answer = text[index];
+head.innerHTML +=answer;
+index++
+
+}
+
+},300);
+
+    </script>
+</body>
+</html>

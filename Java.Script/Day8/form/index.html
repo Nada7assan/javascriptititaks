@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body {
+    background-color: rgb(245, 204, 204);
+}       
+form {
+    width: 30%;
+    margin:200px auto;
+}        
+[type="text"],[type="email"] {
+    padding:5px;
+    margin: 10px;
+    width: 500px;
+    background-color: rgb(233, 222, 222);
+}
+[type="submit"],[type="reset"]{
+    background-color: rgb(173, 54, 65);
+    color: white;
+    cursor: pointer;
+    margin: 30px 50px;
+    padding:10px 30px;
+}
+span {
+font-weight: bold;
+color: brown;
+font-family: sans-serif;
+}
+[name="Gender"] {
+    margin: 10px;
+
+}
+div {
+    color: red;
+    background-color: white;
+}
+
+
+    </style>
+</head>
+<body>
+    <form action="index2.html">
+      <span>User Name</span>  <input  type="text" name="userName"><div></div><br>
+      <span>Address</span>  <input  type="text" name="Address"><div></div><br>
+      <span>Email</span>  <input  type="email" name="email"><div></div><br>
+      <span>Gender</span><br>
+      <span>Female</span>  <input type="radio" id="F" name="Gender" value="Female">
+      <span>Male</span><input type="radio" id="M" name="Gender" value="Male"><div></div>
+      <input type="submit">
+      <input type="reset">
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+ function Rectangle (width,height){
+    this.width = width;
+    this.height = height;
+ }
+
+ Rectangle.prototype.area = function (){
+    return this.width * this.height;
+ }
+
+ Rectangle.prototype.perimeter = function() {
+    return 2 * (this.width + this.height);
+};
+
+Rectangle.prototype.displayInfo = function() {
+    var recArea = this.area();
+    var recPerimeter = this.perimeter();
+    console.log("Rectangle Info:\n Width: " + this.width + "\n Height: " + this.height + "\n Area: " + recArea + "\nPerimeter: " + recPerimeter);
+};
+
+var obj = new Rectangle(10,20);
+ console.log(obj.displayInfo());
+
+    </script>
+</body>
+</html>

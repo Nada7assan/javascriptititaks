@@ -1,0 +1,27 @@
+table {
+    width: 50%;
+    margin: auto;
+    visibility: hidden;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    /* border-bottom: #9c4e54 solid 1px; */
+}
+thead th {
+    background-color: #ae1926;
+    color: white;
+}
+table tbody tr {
+    background-color: rgb(244, 225, 225);
+    font-size: 25px;
+    padding: 10px;
+}
+td:hover {
+    color: #9c4e54;
+    cursor:cell ;
+}
+
+table tbody tr:nth-of-type(even) {
+    background-color: rgb(203, 195, 195);
+}
+

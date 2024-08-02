@@ -1,0 +1,383 @@
+/* section one */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+div.container {
+    width: 70%;
+    margin: 50px auto;
+    align-items: center;
+}
+header.header {
+    background-image: url('./assets/backgroung.webp');
+    height: 900px;
+    width: 100%;
+}
+div.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto;
+}
+.center-sec a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+.center-sec a:hover {
+    color: #d82a4e;
+}
+.center-sec li {
+    display: inline-block;
+    padding: 20px;
+    margin: 50px 0;
+}
+.login-btn {
+    padding: 15px 50px;
+    background-color: rgb(208, 58, 83);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+div.text {
+    text-align: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+div.text h2 {
+    font-size: 55px;
+    margin-top: 150px;
+}
+div.text p {
+    font-size: 14.5px;
+    line-height: 2.2;
+    margin: 50px 0;
+}
+#n, #e {
+    padding: 15px;
+    width: 30%;
+    margin: 10px;
+}
+
+.sign-btn {
+    background-color: rgb(208, 58, 83);
+    color: white;
+    padding: 15px;
+    width: 20%;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 20px 0;
+}
+/* seearch bar */
+.section1 {
+    margin: 70px 0;
+}
+.search {
+    padding: 40px 0;
+    background-color: rgb(208, 58, 83);
+    text-align: center;
+    margin-top: 50px;
+}
+.search > div > h2 {
+    color: white;
+    font-size: 43px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.search-btn {
+    background-color: rgb(208, 58, 83);
+    color: white;
+}
+
+.form2 {
+    background-color: white;
+    width: 900px;
+    padding :30px 1px;
+    margin: 0 auto;
+}
+
+
+#course, #category, .search-btn {
+    padding: 15px 30px;
+    margin: 10px;
+    border: none;
+    font-size: 15px;
+}
+#course, #category {
+    background-color: rgb(239, 235, 235);
+}
+/* cards */
+.section2 {
+    text-align: center;
+    margin-top: 50px;
+}
+.section2 h2 {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    font-family: sans-serif;
+    color: rgb(89, 88, 88);
+}
+.section2 p {
+    font-size: 15px;
+    color: #878787;
+    line-height: 2;
+}
+.card-list {
+    display: flex;
+    display: inline-flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+.card-list li {
+    display: inline-block;
+    padding: 20px;
+    margin: 50px 0;
+}
+.photo-card {
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.gird {
+    display: gird;
+    text-align: left;
+    background-color: rgb(228, 239, 236);
+    width: 30%;
+    margin: 0 10px;
+    padding-bottom: 20px;
+}
+
+
+.info {
+    padding: 40px 10px;
+    border-bottom: 1px rgb(195, 192, 192) solid;
+}
+.course1 {
+    background-image: url('https://preview.colorlib.com/theme/webuni/img/courses/1.jpg');
+    height: 220px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.price {
+    font-weight: 600;
+    background: #d82a4e;
+    color: white;
+    display: inline-block;
+    padding: 13px 19px;
+    margin: 14px 0;
+}
+.author {
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.author-icon1 {
+    background-image: url('https://preview.colorlib.com/theme/webuni/img/authors/1.jpg');
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    float: left;
+}
+h5 {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+.info p {
+    font-size: 14.1px;
+    color: #878787;
+    line-height: 2.2;
+    font-weight: 500;
+}
+h6 {
+    color: #d82a4e;
+    font-weight: 600;
+    font-size: 17px;
+    padding-top: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+.author p {
+    padding-left: 60px;
+    margin-bottom: 0;
+    padding-top: 7px;
+    font-weight: 600;
+}
+
+span {
+    color: #d82a4e;
+}
+.course2 {
+    background-image: url('https://preview.colorlib.com/theme/webuni/img/courses/2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 220px;
+}
+.author-icon2 {
+    background-image: url('https://preview.colorlib.com/theme/webuni/img/authors/2.jpg');
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    float: left;
+}
+.course3 {
+    background-image: url('https://preview.colorlib.com/theme/webuni/img/courses/3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 220px;
+}
+.author-icon3 {
+    background-image: url('https://preview.colorlib.com/theme/webuni/img/authors/3.jpg');
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    float: left;
+}
+.course4 {
+    background-image: url('https://preview.colorlib.com/theme/webuni/img/courses/4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 220px;
+}
+.author-icon4 {
+    background-image: url('https://preview.colorlib.com/theme/webuni/img/authors/4.jpg');
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    float: left;
+}
+.course5 {
+    background-image: url('https://preview.colorlib.com/theme/webuni/img/courses/5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 220px; 
+}
+.author-icon5 {
+    background-image: url('https://preview.colorlib.com/theme/webuni/img/authors/5.jpg');
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    float: left;
+}
+.course6 {
+    background-image: url('https://preview.colorlib.com/theme/webuni/img/courses/6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 220px; 
+}
+.author-icon6 {
+    background-image: url('https://preview.colorlib.com/theme/webuni/img/authors/6.jpg');
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    float: left;
+}
+.course7 {
+    background-image: url('https://preview.colorlib.com/theme/webuni/img/courses/7.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 220px; 
+}
+.author-icon7 {
+    background-image: url('https://preview.colorlib.com/theme/webuni/img/authors/7.jpg');
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    float: left;
+}
+.course8 {
+    background-image: url('https://preview.colorlib.com/theme/webuni/img/courses/8.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 220px; 
+}
+.author-icon8 {
+    background-image: url('https://preview.colorlib.com/theme/webuni/img/authors/8.jpg');
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    float: left;
+}
+/* footer */
+.container1 {
+    width: 100%;
+}
+footer {
+    border-top:#d82a4e solid 2px;
+    padding: 15px;
+     font-weight: 400;
+     line-height: 2.2;
+     color: #212529;
+ }
+ 
+ .elements {
+     display: flex;
+     flex-wrap: wrap;
+     border: #d82a4e dashed 1px;
+     padding-top: 30px;
+     margin: 50px 0;
+     text-align: left;
+ }
+ .fhead {
+ display: inline-block;
+ font-family: 'Raleway', sans-serif;
+ width: 20%;
+ }
+ 
+  .fhead a {
+         text-decoration: none;
+         color: black;
+ }
+ h4 {
+     font-size: 22px;
+ }
+ .fhead input {
+     padding: 10px;
+     margin-top: 20px;
+     display: block;
+ }
+ .fhead #footer-btn {
+     padding:15px;
+     margin-top: 20px;
+     display: block;
+     background-color: #d82a4e;
+     color: white;
+     margin-bottom: 20px;
+ }
+ 
+ ul.bullet-list {
+     position: relative;
+ }
+ li#bullet::before {
+ position: absolute;
+ content: "";
+ width:8px;
+ height: 8px;
+ background-color: #d82a4e;
+ border-radius: 50%;
+ margin-left: -10px;
+ margin-top: 7px;
+ }
+ .fhead li {
+    list-style-type: none;
+    width: 200px;
+ }
